@@ -7,7 +7,6 @@ namespace api_noticia.Repositories.Interfaces
         IEnumerable<Autor> GetAll();
         Autor? GetById(int id);
         int InsertAutor(Autor autor);
-
         int UpAutor(Autor autor);
         int DeleteAutor(int id);
     }
